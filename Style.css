@@ -590,7 +590,7 @@ a {
     /*info Profile*/
     .profile {
         position: relative;
-        top: -35.5rem;
+        top: -30.5rem;
         left: 19.75rem;
         width: 5rem;
         height: 2.5rem;
@@ -627,7 +627,7 @@ a {
 
     .desc {
         padding: 1rem;
-        font-size: 2.5rem;
+        font-size: 2.15rem;
     }
 
     /* Resume section*/
