@@ -101,9 +101,24 @@ a {
     background-image: url(mountain.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 /* home-info*/
+.home .info-section {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+}
+
 .home .info {
     width: 450px;
     height: 500px;
@@ -111,10 +126,7 @@ a {
     font-family: "Barlow", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    position: relative;
-    top: 200px;
-    left: 150px;
-    margin-top: 0;
+
 }
 
 /* home info buttons*/
@@ -142,9 +154,6 @@ a {
 
 /*info Profile*/
 .profile {
-    position: relative;
-    top: -100px;
-    left: 180px;
     width: 250px;
     height: 100px;
     display: flex;
@@ -549,14 +558,25 @@ a {
 
     /* home section*/
     .home {
-        height: 30vh;
+        height: 50vh;
         background-image: none;
-        max-width: 90%;
+        max-width: 100%;
         margin: 0 auto;
         padding: 1rem;
     }
 
     /* home-info*/
+    .home .info-section {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding: 4rem;
+    }
+
     .home .info {
         width: 95%;
         height: 50vh;
@@ -565,9 +585,6 @@ a {
         font-weight: 500;
         font-size: 2rem;
         text-align: center;
-        position: relative;
-        top: 10vh;
-        left: 5%;
         margin-top: 0;
     }
 
@@ -583,21 +600,16 @@ a {
         font-size: 1.5rem;
         color: var(--txt-color);
         margin: 1rem;
-        margin-left: 1.25rem;
-        margin-top: 1.5rem;
     }
 
     /*info Profile*/
     .profile {
-        position: relative;
-        top: -30.5rem;
-        left: 19.75rem;
-        width: 5rem;
-        height: 2.5rem;
+        width: 15rem;
+        height: 5rem;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        ;
+        text-align: center;
     }
 
     .profile i {
@@ -633,6 +645,8 @@ a {
     /* Resume section*/
     /* Resume - grid - pattern*/
     .resume {
+        width: 100%;
+        height: 100%;
         background-image: none;
         grid-auto-flow: row;
         grid-template-columns: none;
@@ -696,7 +710,7 @@ a {
 
     /*Portfolio grid*/
     .portfolio {
-        height: -95vh;
+        height: -10vh;
         width: 100%;
         background-image: none;
     }
